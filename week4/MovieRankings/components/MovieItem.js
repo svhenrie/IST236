@@ -1,5 +1,6 @@
 import { Image, View, Text, StyleSheet } from "react-native";
 
+// Custom components
 function MovieItem(props) {
   return (
     <View style={styles.itemContainer}>
@@ -38,7 +39,6 @@ const styles = StyleSheet.create({
         alignItems: "center",
         borderWidth: 5,
         borderRadius: 5,
-        borderStyle: "double"
     },
     itemImage: {
         width: "100%",
